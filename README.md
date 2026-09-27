@@ -78,3 +78,4 @@ Beberapa contoh error yang bisa didemonstrasikan sesuai kebutuhan tugas (uji cob
 - Semua operasi yang mengubah stok (konfirmasi pesanan, update stok manual) menggunakan **transaction MySQL** (`BEGIN...COMMIT/ROLLBACK`) dan `SELECT ... FOR UPDATE` agar konsisten saat diakses bersamaan.
 - Struktur backend mengikuti paradigma OOP: `Pengguna` sebagai superclass, `Admin` dan `Kasir` sebagai subclass yang mewarisi atribut & method (sesuai relasi generalisasi pada class diagram Tugas 1).
 "# dapur-ina-aina" 
+"# dapur-ina-aina" 
